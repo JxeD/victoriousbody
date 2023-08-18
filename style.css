@@ -1,0 +1,172 @@
+/* Reset dei margini e dei padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile del corpo del sito */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Stile dell'intestazione */
+header {
+    background-color: #ACFFA1;
+    padding: 20px;
+    text-align: start;
+    color: #191919;
+}
+
+header h1 {
+    font-size: 52px;
+    padding-left: 5px;
+}
+
+header h3 {
+ padding-left: 5px;
+ max-width: 266.72px;
+ font-size: 38px;
+ font-family: cursive;
+  transition: color 0.3s ease;
+}
+
+header h3:hover {
+ color: gold;
+}
+
+nav {
+ text-align: center;
+ margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: #191919;
+}
+
+nav ul li a:hover {
+    color: #FFB465;
+}
+
+/* Stile del corpo principale */
+.main {
+    padding: 20px;
+}
+
+/* Stile dei piedi di pagina */
+footer {
+    background-color: #ACFFA1;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+.introduzione {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 90%;
+    margin-top: 45px;
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.introduzione p {
+  margin-top: 25px;
+}
+
+/* Stile della lista degli esercizi */
+#exercise-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Stile delle illustrazioni */
+.exercise-item {
+    border: 1px solid #ddd;
+    padding: 5%;
+    max-width: 90%;
+    margin-top: 45px;
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exercise-item:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ACFFA1;
+    color: black;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.exercise-item p {
+    margin-top: 15px;
+}
+
+#contatti {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 45px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+}
+
+#contatti:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.6);
+    color: black;
+    
+}
+
+#contatti ul {
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+#contatti ul li {
+    margin-bottom: 15px;
+}
+
+#contatti ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: #191919;
+}
+
+#contatti ul li a:hover {
+    color: #FFB465;
+}
+
+#copyright {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
